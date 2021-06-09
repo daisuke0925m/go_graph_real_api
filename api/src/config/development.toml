@@ -1,0 +1,15 @@
+hoge = ""
+
+[app]
+  port = 8080
+
+[db]
+  user = ""
+  name = ""
+  password = ""
+  host = ""
+  port = ""
+
+[redis]
+  url = ""
+  password = ""

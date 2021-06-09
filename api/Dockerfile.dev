@@ -1,0 +1,10 @@
+FROM golang:1.15.8
+
+WORKDIR /app
+
+RUN apt-get update && apt-get -y install default-mysql-client
+
+RUN GO111MODULE=off go get -u github.com/cosmtrek/air && \
+  go get -u bitbucket.org/liamstask/goose/cmd/goose
+
+ENTRYPOINT ["sh", "./entrypoint.sh"]
