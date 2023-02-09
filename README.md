@@ -2,3 +2,4 @@
 
 リリーステスト
 - develop
+- feature
