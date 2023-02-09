@@ -3,4 +3,4 @@
 リリーステスト
 - develop
 - feature
-  - release_test
+  - release_test2
