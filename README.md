@@ -2,3 +2,5 @@
 
 リリーステスト
 - develop
+- feature
+  - release_test
